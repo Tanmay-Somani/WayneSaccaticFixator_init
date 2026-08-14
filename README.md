@@ -1,4 +1,4 @@
-# Saccadic Fixator — 33-Light "Circle of Lights"
+# Saccadic Fixator 
 
 A portable Saccadic-Fixator-style reaction-time system. This is the current
 software prototype: a **33-LED radial board, one touch input**, accurate
