@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saccadic Fixator — MVP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main>
+    <header class="app-header">
+      <h1 class="app-title">SACCADIC FIXATOR</h1>
+    </header>
+
+    <div class="card">
+      <div id="led-screen" class="led-screen" role="button" aria-label="Touch target">
+        <canvas id="led-canvas" class="led-canvas" aria-hidden="true"></canvas>
+      </div>
+
+      <button id="start-btn" class="btn-start" type="button">START TEST</button>
+    </div>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
