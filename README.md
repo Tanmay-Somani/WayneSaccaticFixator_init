@@ -1,9 +1,9 @@
 # Saccadic Fixator — 33-Light Radial Board
 
-A software prototype of a **Saccadic Fixator** reaction-time system: a 33-LED
-radial board with a single touch input, monotonic high-resolution timing,
-per-run data exports, and a modular architecture designed to grow without
-rewriting the core trial logic.
+A software prototype of a **Saccadic Fixator** reaction-time system: a full
+33-LED radial board — all 33 lights on the ring can act as targets — with
+monotonic high-resolution timing, per-run data exports, and a modular
+architecture designed to grow without rewriting the core trial logic.
 
 ## Features
 
