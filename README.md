@@ -32,22 +32,7 @@ python -m pytest
 ## The board — 33 lights in a radial ring
 
 The board is a black square that fills most of the page (70–80% of the
-viewport). The 33 lights are arranged radially on **16 spokes**:
-
-```
-                     S1 (top)
-                  │  │  │
-            S16   │  │  │   S2
-             ●    │  │  │    ●
-             │    │  │  │    │
-      S15 ●──┴────┴──┼──┴────┴──● S3
-                   S33 (center)
-      S14 ●──┬────┬──┼──┬────┬──● S4
-             │    │  │  │    │
-            S13   │  │  │   S5
-                  │  │  │
-                     S9 (bottom)
-```
+viewport). The 33 lights are arranged radially on **16 spokes*
 
 - **16 spokes** radiate from the center at 22.5° intervals; spoke 1 is at
   the top (12 o'clock), numbering runs clockwise.
